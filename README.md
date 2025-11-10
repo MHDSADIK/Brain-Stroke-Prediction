@@ -1,30 +1,44 @@
-🧠 Project Title: Brain Stroke Prediction Model (Python)
-📋 Overview
+#🧠 Brain Stroke Prediction Model (Python)
+##📝 Project Overview
 
-A predictive analytics system built to identify the risk of brain stroke using machine learning ensemble models. The project focuses on healthcare data, aiming to support early diagnosis and preventive action.
+This project focuses on predicting the risk of brain stroke by analyzing medical and lifestyle data using machine learning ensemble techniques.
+It demonstrates the ability to handle healthcare datasets, perform feature engineering, and develop models that assist in early diagnosis and preventive decision-making for health professionals.
 
-⚙️ Tech Stack
+##⚙️ Technologies & Tools
 
-Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+Languages: Python
+Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+Models Used: Random Forest, Bagging Classifier
+Tools: Jupyter Notebook, Power BI
 
-Algorithms: Random Forest, Bagging Classifier
+##🔍 Project Workflow
 
-Tools: Jupyter Notebook, Power BI (optional visualization)
+1.Data Preparation: Cleaned and formatted raw healthcare data to handle missing values and 
+  outliers.
 
-🧩 Key Steps
+2.Exploratory Data Analysis (EDA): Conducted visual and statistical analysis to uncover key 
+  patterns and correlations in stroke risk factors such as age, BMI, and glucose levels.
 
-Data cleaning and preprocessing
+3.Feature Engineering: Selected and transformed important predictors to improve model accuracy 
+  and interpretability.
 
-Exploratory Data Analysis (EDA)
+4.Model Building: Implemented ensemble learning models including Random Forest and Bagging 
+  Classifier to ensure robust predictions.
 
-Feature engineering
+5.Model Evaluation: Compared performance metrics like Accuracy, Precision, Recall, and ROC-AUC 
+  to select the best-performing model.
 
-Model training & hyperparameter tuning
+6.Visualization & Insights: Used Power BI and Matplotlib to visualize trends and communicate 
+  findings effectively.
 
-Performance evaluation (Accuracy, Precision, Recall, ROC-AUC)
+##🎯 Results
 
-Visualization and result interpretation
+Achieved high predictive accuracy and improved reliability through ensemble techniques.
 
-📊 Results
+Identified key stroke indicators, enabling early detection support for healthcare professionals.
 
-Achieved high accuracy in predicting stroke risk, with Random Forest outperforming baseline models. Generated interpretable visuals for healthcare professionals.
+Delivered interpretable insights through data-driven visualization and metrics.
+
+🚀 How to Run
+pip install -r requirements.txt
+jupyter notebook Brain_Stroke_Prediction.ipynb
